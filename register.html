@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+
+    <!-- LEFT IMAGE SECTION -->
+    <div class="auth-image">
+        <h2>Quantum Secure Platform</h2>
+        <p>
+            Register to experience quantum-random key based
+            secure communication and file sharing.
+        </p>
+        <img src="images/register-quantum.avif" alt="Quantum Security">
+    </div>
+
+    <!-- RIGHT FORM SECTION -->
+    <div class="auth-container">
+        <h2>Create Account</h2>
+
+        <form action="auth/register.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+
+            <input type="email" name="email" placeholder="Email Address" required>
+
+            <input type="password" name="password" placeholder="Password" required>
+
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+
+            <button type="submit">Register</button>
+        </form>
+
+        
+        <p>Already have an account? <a href="login.html">Login</a></p>
+        <br>
+        <a href="index.php">Back to Home</a>
+    </div>
+    
+
+</div>
+
+</body>
+</html>
